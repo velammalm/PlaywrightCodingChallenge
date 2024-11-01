@@ -79,7 +79,7 @@ npm install
 npx playwright install
 ```
 
-5. Then run playwright browsers and run in webkit and see the report
+5. Then run playwright browsers and run in chromium and see the report
 ```bash
 npx playwright test --headed --project=chromium
 npx playwright show-report my-report
