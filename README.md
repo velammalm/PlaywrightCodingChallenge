@@ -29,3 +29,34 @@ To verify your current version, use the command npm -v.
 If npm isn't installed, follow the npm installation guide.
 Node.js (v16.0.0 or later): JavaScript runtime built on Chrome's V8 JavaScript engine, allowing the execution of JavaScript server-side.
 To verify your current version, use the command node -v.
+
+## Installation
+
+###1. Clone the Repository
+
+You can clone the repository using Git:
+
+```bash
+git clone https://github.com/velammalm/PlaywrightCodingChallenge
+
+Alternatively, you can download the repository as a ZIP file directly from GitHub.
+
+###2. Navigate to the project directory:
+
+```bash
+cd PlaywrightCodingChallengeFolderPath
+```
+
+###3. Install the dependencies:
+
+```bash
+npm install
+```
+
+###4. Install the Playwright browsers
+
+```bash
+npx playwright install
+
+
+
