@@ -1,6 +1,6 @@
 # PlaywrightCodingChallenge
 
-Prerequisites
+## Prerequisites
 Ensure you have the following software installed on your machine:
 
 npm (v8.0.0 or later): Package manager for JavaScript, used to install and manage software packages.
