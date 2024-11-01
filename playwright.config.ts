@@ -35,7 +35,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'https://www.ab-in-den-urlaub.ch/',
+    baseURL: 'https://www.ab-in-den-urlaub.de/',
     headless: false,
     launchOptions: {
       // 1
@@ -72,7 +72,7 @@ export default defineConfig({
       use: { 
        // ...devices['Desktop Safari'] 
        browserName: 'webkit',
-        viewport: null,
+        viewport: { width: 1600, height: 1000 },
       },
     },
 
