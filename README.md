@@ -176,6 +176,15 @@ After test execution to view the reports:
 ```bash
 npx playwright show-report my-report
 ```
+The Report contains Videos and screenshots of the test runs.
+<img width="1004" alt="Screenshot 2024-11-01 at 12 33 53" src="https://github.com/user-attachments/assets/e241e987-ab67-4f7e-86ec-ff4b5e0de753">
+
+Once you click on these, you will be able to see:
+
+<img width="919" alt="Screenshot 2024-11-01 at 12 31 36" src="https://github.com/user-attachments/assets/ce383357-752a-445c-b7fc-02d45378737b">
+<img width="1014" alt="Screenshot 2024-11-01 at 12 33 06" src="https://github.com/user-attachments/assets/89281386-aeac-4af3-873c-0e481b626c55">
+
+
 
 For Allure reports, install the following
 
