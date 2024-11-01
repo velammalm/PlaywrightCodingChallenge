@@ -11,6 +11,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Mac Specific Installation and guidelines](#MacSpecificInstallationandguidelines)
+- [TestExecution](#TestExecution)
 
 ## Description
 The **PlaywrightCodingChallenge** project aims to create a flexible and reusable automation framework using Playwright for testing the **'Ab in den Urlaub'** website across various markets, including Germany (de), Austria (at), and Switzerland (ch). This ensures that the website behaves correctly and consistently in different locales.
@@ -43,11 +44,21 @@ The following tasks have been completed in this repository:
 ## Prerequisites
 Ensure you have the following software installed on your machine:
 
-**npm (v8.0.0 or later)**: Package manager for JavaScript, used to install and manage software packages.
-To verify your current version, use the command npm -v.
-If npm isn't installed, follow the npm installation guide.\
-**Node.js (v16.0.0 or later)**: JavaScript runtime built on Chrome's V8 JavaScript engine, allowing the execution of JavaScript server-side.
-To verify your current version, use the command node -v.
+**npm (v8.0.0 or later)**: Package manager for JavaScript/Typescript, used to install and manage software packages.
+To verify your current version, use the command
+
+```bash
+npm -v
+```
+
+If npm isn't installed, follow the [npm installation guide.](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+**Node.js (v16.0.0 or later)**: JavaScript runtime built which allows the execution of JavaScript server-side.
+To verify your current version, use the command
+
+```bash
+node -v.
+```
 
 ## Installation
 
@@ -80,18 +91,6 @@ npm install
 npx playwright install
 ```
 
-5. Then run playwright browsers and run in chromium and see the report
-```bash
-npx playwright test --headed --project=chromium
-npx playwright show-report my-report
-```
-
-6. For Allure reports
-```bash
- npm install allure-playwright
- npm install allure-commandline
- allure generate ./allure-results --clean; allure open ./allure-report
-```
 
 ## MacSpecificInstallationandguidelines
 
@@ -125,4 +124,29 @@ For Allure reports
  allure generate ./allure-results --clean; allure open ./allure-report
 ```
 
+## TestExecution
+
+###You can change the url in playwright.config.ts###
+Update the value of ###baseURL### in playwright.config.ts to run the tests in different markets
+
+eg:  baseURL: 'your-preferred-url',
+
+To execute the test in playwright browser:
+
+### Execution in chromium - headed mode
+```bash
+npx playwright test --headed --project=chromium
+```
+### Execution in firefox - headed mode
+```bash
+npx playwright test --headed --project=firefox
+```
+### Execution in safari - headed mode
+```bash
+npx playwright test --headed --project=webkit
+```
+### For execution in SEQUENCE in a particular browser(eg: chrome) ###
+```bash
+npx playwright test --headed --project=chromium --workers=1
+```
 
