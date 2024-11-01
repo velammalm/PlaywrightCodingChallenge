@@ -1,4 +1,25 @@
 # PlaywrightCodingChallenge
+Creation of generic automation code to test the website **'Ab in den Urlaub'** for different markets (de, at, ch) to ensure proper functional behavior.
+
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Description
+The **PlaywrightCodingChallenge** project aims to create a flexible and reusable automation framework using Playwright for testing the **'Ab in den Urlaub'** website across various markets, including Germany (de), Austria (at), and Switzerland (ch). This ensures that the website behaves correctly and consistently in different locales.
+
+## Features
+
+- Validation of HomePage
+- Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
+- Selection of offer based on the user input(destination, travel date) and validation of offer page
 
 ## Prerequisites
 Ensure you have the following software installed on your machine:
