@@ -91,7 +91,7 @@ brew install npm
 brew install node
 ```
 
-Please check for version compatibility using the following commands
+Please check for version compatibility using the following commands (npm (v8.0.0 or later), Node.js (v16.0.0 or later))
 ```bash
 npm -v
 node -v
