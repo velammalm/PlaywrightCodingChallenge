@@ -25,6 +25,17 @@ The **PlaywrightCodingChallenge** project aims to create a flexible and reusable
 
 ## TestCases
 
+## Completed Tasks
+
+The following tasks have been completed in this repository:
+
+
+**1. Basic functionalities check**\
+**2. Login functionality**\
+**3. Destination and date selection**\
+**4. Offer selection**\
+**5. Offer page**
+
 - Validation of HomePage
 - Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
 - Selection of offer based on the user input(destination, travel date) and validation of offer page
@@ -71,7 +82,7 @@ npx playwright install
 
 ## Mac Specific Installation and guidelines
 
-Please install using homebrew
+Please install using homebrew\
 For installing homebrew, please follow these instructions:
 https://brew.sh
 
