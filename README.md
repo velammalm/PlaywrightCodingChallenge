@@ -6,7 +6,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 - [Description](#description)
 - [KeyFeatures](#keyfeatures)
 - [Completed Tasks](#CompletedTasks)
-- [TestCases](#testcases)
+- [Test Cases Covered](TestCasesCovered)
 - [Windows Specific Installation and guidelines](#WindowsSpecificInstallationandguidelines)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -36,7 +36,7 @@ The following tasks have been completed in this repository:
 **4. Offer selection**\
 **5. Offer page**
 
-## TestCases
+## TestCasesCovered
 - Validation of HomePage
 - Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
 - Selection of offer based on the user input(destination, travel date) and validation of offer page
@@ -128,6 +128,9 @@ For Allure reports
 ## TestCases
 
 You can find the testcases under **spec** folder
+
+<img width="211" alt="Screenshot 2024-11-01 at 11 06 14" src="https://github.com/user-attachments/assets/9db9ba6b-e8fd-4d0a-9a3f-b1d8be2c2814">
+
 
 ## TestExecution
 
