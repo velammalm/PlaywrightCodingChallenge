@@ -79,6 +79,19 @@ npm install
 npx playwright install
 ```
 
+5. Then run playwright browsers and run in webkit and see the report
+```bash
+npx playwright test --headed --project=chromium
+npx playwright show-report my-report
+```
+
+6. For Allure reports
+```bash
+ npm install allure-playwright
+ npm install allure-commandline
+ allure generate ./allure-results --clean; allure open ./allure-report
+```
+
 ## Mac Specific Installation and guidelines
 
 Please install packages using homebrew.\
