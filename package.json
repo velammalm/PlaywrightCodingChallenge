@@ -1,0 +1,22 @@
+{
+  "name": "scratchframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chromium-headed": "playwright test --headed --project=chromium",
+    "generate:allure-report": "allure generate ./allure-results --clean; allure open ./allure-report",
+    "allure-report": "allure open ./allure-report",
+    "report": "playwright show-report my-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.6",
+    "allure-commandline": "^2.30.0",
+    "allure-playwright": "3.0.0-beta.3",
+    "winston": "^3.10.0"
+  }
+}
