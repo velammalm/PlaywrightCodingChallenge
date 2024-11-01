@@ -38,6 +38,7 @@ You can clone the repository using Git:
 
 ```bash
 git clone https://github.com/velammalm/PlaywrightCodingChallenge
+```
 
 Alternatively, you can download the repository as a ZIP file directly from GitHub.
 
