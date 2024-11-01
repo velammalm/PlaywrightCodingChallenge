@@ -150,3 +150,12 @@ npx playwright test --headed --project=webkit
 npx playwright test --headed --project=chromium --workers=1
 ```
 
+### Execution Parallely in all browser 
+```bash
+npx playwright test
+```
+### To execute particular test 
+```bash
+npx playwright test --grep 'Validation of offers' 
+```
+
