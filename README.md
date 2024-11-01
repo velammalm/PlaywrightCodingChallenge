@@ -67,7 +67,7 @@ npm install
 
 ```bash
 npx playwright install
-
+```
 
 ##Mac Specific Installation and guidelines
 
@@ -76,11 +76,13 @@ For installing homebrew, please follow these instructions:
 https://brew.sh
 
 Once brew is installed in your Mac, please install the following:
-```brew install npm
+```bash
+brew install npm
 brew install node```
 
 Please check for version compatibility using the following commands
+```bash
 npm -v
-node -v
+node -v```
 
 
