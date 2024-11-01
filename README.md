@@ -39,6 +39,7 @@ The following tasks have been completed in this repository:
 - Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
 - Selection of offer based on the user input(destination, travel date) and validation of offer page
 
+## Windows Specific Installation and guidelines
 ## Prerequisites
 Ensure you have the following software installed on your machine:
 
