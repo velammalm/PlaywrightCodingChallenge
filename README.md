@@ -10,7 +10,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
 - [Mac Specific Installation and guidelines](#MacSpecificInstallationandguidelines)
-- [General Guidelines]#GeneralGuidelines
+- [General Guidelines](#GeneralGuidelines)
     - [TestCases](#TestCases)
     - [TestExecution](#TestExecution)
     - [Reports](#Reports)
