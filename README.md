@@ -11,6 +11,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Mac Specific Installation and guidelines](#MacSpecificInstallationandguidelines)
+- [TestCases](#TestCases)
 - [TestExecution](#TestExecution)
 
 ## Description
@@ -123,6 +124,10 @@ For Allure reports
  npm install allure-commandline
  allure generate ./allure-results --clean; allure open ./allure-report
 ```
+
+## TestCases
+
+You can find the testcases under **spec** folder
 
 ## TestExecution
 
