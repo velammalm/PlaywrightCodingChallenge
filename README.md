@@ -97,4 +97,11 @@ npm -v
 node -v
 ```
 
+Then install playwright browsers and run in webkit and see the report
+```bash
+npx playwright install
+npx playwright test --headed --project=webkit
+npx playwright show-report my-report
+```
+
 
