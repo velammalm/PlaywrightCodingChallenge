@@ -41,6 +41,7 @@ git clone https://github.com/velammalm/PlaywrightCodingChallenge
 
 Alternatively, you can download the repository as a ZIP file directly from GitHub.
 
+
 2. Navigate to the project directory:
 
 ```bash
