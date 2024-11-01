@@ -81,7 +81,7 @@ npx playwright install
 
 ## Mac Specific Installation and guidelines
 
-Please install using homebrew\
+Please install packages using homebrew.\
 For installing homebrew, please follow these instructions:
 https://brew.sh
 
@@ -102,6 +102,12 @@ Then install playwright browsers and run in webkit and see the report
 npx playwright install
 npx playwright test --headed --project=webkit
 npx playwright show-report my-report
+```
+
+For Allure reports
+```bash
+ npm install allure-playwright
+ allure generate ./allure-results --clean; allure open ./allure-report
 ```
 
 
