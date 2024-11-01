@@ -126,7 +126,7 @@ For Allure reports
 
 ## TestCases
 
-You can find the testcases under **spec** folder
+You can find the testcases under **specs** folder
 
 <img width="211" alt="Screenshot 2024-11-01 at 11 06 14" src="https://github.com/user-attachments/assets/9db9ba6b-e8fd-4d0a-9a3f-b1d8be2c2814">
 
