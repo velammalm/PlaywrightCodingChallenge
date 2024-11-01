@@ -126,8 +126,8 @@ For Allure reports
 
 ## TestExecution
 
-###You can change the url in playwright.config.ts###
-Update the value of ###baseURL### in playwright.config.ts to run the tests in different markets
+**You can change the url in playwright.config.ts**
+Update the value of **baseURL** in **playwright.config.ts** to run the tests in different markets
 
 eg:  baseURL: 'your-preferred-url',
 
