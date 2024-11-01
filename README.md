@@ -4,10 +4,10 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 ## Table of Contents
 
 - [Description](#description)
-- [Features](#features)
+- [Key Features](#keyfeatures)
+- [Tests](#tests)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -15,7 +15,15 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 ## Description
 The **PlaywrightCodingChallenge** project aims to create a flexible and reusable automation framework using Playwright for testing the **'Ab in den Urlaub'** website across various markets, including Germany (de), Austria (at), and Switzerland (ch). This ensures that the website behaves correctly and consistently in different locales.
 
-## Features
+## Key Features
+
+- **Unique Page Object Model Design Pattern**: This framework design stands apart from traditional POMs because it has a centralized method for setting up the page. It includes a hook that runs before each test, setting the page context. By centralizing these setup operations, it ensures a consistent starting point for each test, improving test reliability. This unique approach significantly reduces complexity and accelerates coding, making it easier and faster to write scripts compared to traditional POMs. This means less time spent on setup and more time spent on creating effective tests.
+
+- **Utility Functions**: Simplifies common actions and assertions, such as clicking buttons, filling forms, and checking elements. It also includes built-in methods for conditional statements and maintains a default load state across applications.
+
+- **Detailed Reporting**: Provides screenshots, videos, and traces of test failures, making it easier to understand and fix issues. The framework also supports customizable Allure reports for enhanced reporting capabilities.
+
+## Tests
 
 - Validation of HomePage
 - Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
