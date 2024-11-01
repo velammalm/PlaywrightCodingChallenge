@@ -107,6 +107,7 @@ npx playwright show-report my-report
 For Allure reports
 ```bash
  npm install allure-playwright
+ npm install allure-commandline
  allure generate ./allure-results --clean; allure open ./allure-report
 ```
 
