@@ -129,6 +129,9 @@ For Allure reports
 **You can change the url in playwright.config.ts**
 Update the value of **baseURL** in **playwright.config.ts** to run the tests in different markets
 
+<img width="946" alt="Screenshot 2024-11-01 at 10 59 15" src="https://github.com/user-attachments/assets/d4206081-8339-4f90-a1df-3b98eaba0e5f">
+
+
 eg:  **baseURL: 'your-preferred-url'**
 
 To execute the test in playwright browser:
