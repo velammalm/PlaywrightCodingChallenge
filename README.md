@@ -12,6 +12,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 - [Mac Specific Installation and guidelines](#MacSpecificInstallationandguidelines)
 - [TestCases](#TestCases)
 - [TestExecution](#TestExecution)
+- [Reports](#Reports)
 
 ## Description
 The **PlaywrightCodingChallenge** project aims to create a flexible and reusable automation framework using Playwright for testing the **'Ab in den Urlaub'** website across various markets, including Germany (de), Austria (at), and Switzerland (ch). This ensures that the website behaves correctly and consistently in different locales.
@@ -166,4 +167,22 @@ npx playwright test
 ```bash
 npx playwright test --grep 'Validation of offers' 
 ```
+## Reports
 
+After test execution to view the reports:
+
+```bash
+npx playwright show-report my-report
+```
+
+For Allure reports, install the following
+
+```bash
+ npm install allure-playwright
+ npm install allure-commandline
+```
+
+To View the allure report, 
+```bash
+ allure generate ./allure-results --clean; allure open ./allure-report
+```
