@@ -1,3 +1,8 @@
+/**
+ * searchResults-page.ts: In this module we maintain all the elements(locators) and functions associated to the
+ * Search Result page which displays various hotel details based on the user search input.
+ */
+
 import { logger } from "../framework-setup/logger";
 import { click, scrollLocatorIntoView, scrollToBottomPage, waitForLoadState, waitForNetworkIdleState, waitForPageLoadState } from "../utils/actionUtils";
 import { expectElementToBeHidden, expectPageToContainURL } from "../utils/assert-utils";
@@ -55,8 +60,7 @@ async selectHotel() : Promise<{ hotelName: string; hotelLocation: string; }>{
     
     //const randomHotelRating = await this.allHotelRatings().nth(randomIndex).innerText();
 
-    // wait for the random hotel to be visible, and then select it
-    
+    /* wait for the random hotel to be visible, and then select it */
     await click(randomHotel);
   
     logger.info(`Selected hotel at index: ${randomIndex}`);

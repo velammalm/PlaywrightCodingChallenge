@@ -1,3 +1,8 @@
+/**
+ * offer-selection.ts: In this module we maintain all the elements(locators) and functions associated to the 
+ * Offers Page --> where different offers for a particular hotel appears.
+ */
+
 import { TIMEOUT } from "dns";
 import { logger } from "../framework-setup/logger";
 import { scrollLocatorIntoView, waitForLoadState } from "../utils/actionUtils";
@@ -22,6 +27,7 @@ export default class OffersPage {
     await expectPageToContainURL("offers?");
   }
 
+  /* Validate whether the hotel details are same as displayed in previous search result page */
   async verifyHotelDisplayDetails(hotelName: string, hotelLocation: string): Promise<void> {
     await expectElementToContainText(this.displayedHotelName(), hotelName);
     logger.info("verified hotel name");
@@ -32,6 +38,7 @@ export default class OffersPage {
     logger.info("verified hotel location");
   }
 
+  /* Select the first offer whichever is available for booking */
   async selectOffer() : Promise<string> {
     await this.allOffers().first().waitFor({
         state: "visible",

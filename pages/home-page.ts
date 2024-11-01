@@ -1,3 +1,7 @@
+/**
+ * home-page.ts: In this module we maintain all the elements(locators) and functions associated to the offer home page
+ */
+
 import { click, clickByJS, gotoURL, wait, } from "../utils/actionUtils";
 import {  expectElementToBeEnabled, expectElementToBeVisible, expectPageToHaveTitle } from "../utils/assert-utils"
 import  { logger } from "../framework-setup/logger";
@@ -83,6 +87,7 @@ async selectTravelPeriod(travelDate: string): Promise<void>{
   /*clicking the user's desired start date and end date */
   await click(desiredStartDateButton);
   await click(desiredEndDateButton);
+  
   await click(this.travelDate());
 }
 

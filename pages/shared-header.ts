@@ -1,3 +1,8 @@
+/**
+ * shared-header.ts: In this module we maintain all the elements(locators) and functions associated to the
+ * shared header that is displayed across different pages
+ */
+
 import { click, clickByJS, doubleClick, hover, scrollLocatorIntoView, wait, waitForPageLoadState } from "../utils/actionUtils";
 import { getLocator, getLocatorByTestId, getLocatorByText } from "../utils/locator-utils";
 import CustomLogger, { logger } from "../framework-setup/logger";

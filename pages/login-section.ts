@@ -1,3 +1,8 @@
+/**
+ * login-section.ts: In this module we maintain all the elements(locators) and functions associated to the 
+ * SignIn popup section which appears after user clicks on Anmelden in MyAccount menu
+ */
+
 import { click, fillAndEnter, waitForLoadState, waitForNetworkIdleState, waitForPageLoadState } from "../utils/actionUtils";
 import { expectElementToBeDisabled, expectElementToBeEnabled, expectElementToBeHidden, expectElementToBeVisible, expectElementToHaveCSS, expectElementToHaveText } from "../utils/assert-utils";
 import { getLocator, getLocatorByRole, getLocatorByTestId } from "../utils/locator-utils";
@@ -46,15 +51,24 @@ async clickSignInButton() : Promise<void>{
     logger.info('SignIn Button is clicked');
 }
 
+/* this function is written to verify the alert text that appears in the Login widget
+    when user enters incorrect username and password */
+
 async verifyErrorAlert() : Promise<void>{
     //await waitForNetworkIdleState();
     //logger.info('application in network idle state');
     //await waitForLoadState();
+
+    /* wait until the loader (which appears after clicking Anmelden button) disappears */
     await expectElementToBeHidden(this.reactSpinner());
+    
     logger.info('error alert text visibility: '+await this.errorAlertText().isVisible({timeout:10000}));
     await expectElementToBeVisible(this.errorAlertText(),{message: 'ErrorAlert text should be visible'});
     await expectElementToHaveText(this.errorAlertText(),'Falsche E-Mail-Adresse oder Passwort. Bitte versuche es erneut.',{ignoreCase:false, useInnerText:true});
 }
+
+/* this function is written to verify whether the Username and Password textbox is highlighted in redColor
+    when user enters incorrect username and password */
 
 async verify_RedBorder_HighLight_AndErroText_Email_Password() : Promise<void>{
     await expectElementToHaveCSS(this.emailFieldParent(),'border','1px solid rgb(255, 0, 10)',{message:'The email Field should be highlighted with Red border'});
