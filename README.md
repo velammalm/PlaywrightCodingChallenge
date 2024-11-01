@@ -34,13 +34,13 @@ To verify your current version, use the command node -v.
 
 1. Clone the Repository
 
-You can clone the repository using Git:
+  You can clone the repository using Git:
 
 ```bash
 git clone https://github.com/velammalm/PlaywrightCodingChallenge
 ```
 
-Alternatively, you can download the repository as a ZIP file directly from GitHub.
+  Alternatively, you can download the repository as a ZIP file directly from GitHub.
 
 
 2. Navigate to the project directory:
