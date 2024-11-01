@@ -32,7 +32,7 @@ To verify your current version, use the command node -v.
 
 ## Installation
 
-###1. Clone the Repository
+1. Clone the Repository
 
 You can clone the repository using Git:
 
@@ -41,19 +41,19 @@ git clone https://github.com/velammalm/PlaywrightCodingChallenge
 
 Alternatively, you can download the repository as a ZIP file directly from GitHub.
 
-###2. Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
 cd PlaywrightCodingChallengeFolderPath
 ```
 
-###3. Install the dependencies:
+3. Install the dependencies:
 
 ```bash
 npm install
 ```
 
-###4. Install the Playwright browsers
+4. Install the Playwright browsers
 
 ```bash
 npx playwright install
