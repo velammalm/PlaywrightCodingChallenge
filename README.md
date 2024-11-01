@@ -10,9 +10,10 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
 - [Mac Specific Installation and guidelines](#MacSpecificInstallationandguidelines)
-- [TestCases](#TestCases)
-- [TestExecution](#TestExecution)
-- [Reports](#Reports)
+- [General Guidelines]#GeneralGuidelines
+    - [TestCases](#TestCases)
+    - [TestExecution](#TestExecution)
+    - [Reports](#Reports)
 
 ## Description
 The **PlaywrightCodingChallenge** project aims to create a flexible and reusable automation framework using Playwright for testing the **'Ab in den Urlaub'** website across various markets, including Germany (de), Austria (at), and Switzerland (ch). This ensures that the website behaves correctly and consistently in different locales.
@@ -124,6 +125,7 @@ For Allure reports
  allure generate ./allure-results --clean; allure open ./allure-report
 ```
 
+## GeneralGuidelines
 ## TestCases
 
 You can find the testcases under **specs** folder
