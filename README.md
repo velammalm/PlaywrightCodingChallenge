@@ -4,7 +4,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 ## Table of Contents
 
 - [Description](#description)
-- [Key Features](#keyfeatures)
+- [KeyFeatures](#keyfeatures)
 - [TestCases](#testcases)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
