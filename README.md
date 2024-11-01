@@ -5,7 +5,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 
 - [Description](#description)
 - [Key Features](#keyfeatures)
-- [Tests](#tests)
+- [TestCases](#testcases)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Contributing](#contributing)
@@ -23,7 +23,7 @@ The **PlaywrightCodingChallenge** project aims to create a flexible and reusable
 
 - **Detailed Reporting**: Provides screenshots, videos, and traces of test failures, making it easier to understand and fix issues. The framework also supports customizable Allure reports for enhanced reporting capabilities.
 
-## Tests
+## TestCases
 
 - Validation of HomePage
 - Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
