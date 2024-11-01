@@ -5,9 +5,12 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 
 - [Description](#description)
 - [KeyFeatures](#keyfeatures)
+- [Completed Tasks](#CompletedTasks)
 - [TestCases](#testcases)
+- [Windows Specific Installation and guidelines](#WindowsSpecificInstallationandguidelines)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Mac Specific Installation and guidelines](#MacSpecificInstallationandguidelines)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -23,7 +26,7 @@ The **PlaywrightCodingChallenge** project aims to create a flexible and reusable
 
 - **Detailed Reporting**: Provides screenshots, videos, and traces of test failures, making it easier to understand and fix issues. The framework also supports customizable Allure reports for enhanced reporting capabilities.
 
-## Completed Tasks
+## CompletedTasks
 
 The following tasks have been completed in this repository:
 
@@ -39,7 +42,7 @@ The following tasks have been completed in this repository:
 - Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
 - Selection of offer based on the user input(destination, travel date) and validation of offer page
 
-## Windows Specific Installation and guidelines
+## WindowsSpecificInstallationandguidelines
 ## Prerequisites
 Ensure you have the following software installed on your machine:
 
@@ -93,7 +96,7 @@ npx playwright show-report my-report
  allure generate ./allure-results --clean; allure open ./allure-report
 ```
 
-## Mac Specific Installation and guidelines
+## MacSpecificInstallationandguidelines
 
 Please install packages using homebrew.\
 For installing homebrew, please follow these instructions:
