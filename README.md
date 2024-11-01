@@ -15,7 +15,7 @@ Creation of generic automation code to test the website **'Ab in den Urlaub'** f
 ## Description
 The **PlaywrightCodingChallenge** project aims to create a flexible and reusable automation framework using Playwright for testing the **'Ab in den Urlaub'** website across various markets, including Germany (de), Austria (at), and Switzerland (ch). This ensures that the website behaves correctly and consistently in different locales.
 
-## Key Features
+## KeyFeatures
 
 - **Unique Page Object Model Design Pattern**: This framework design stands apart from traditional POMs because it has a centralized method for setting up the page. It includes a hook that runs before each test, setting the page context. By centralizing these setup operations, it ensures a consistent starting point for each test, improving test reliability. This unique approach significantly reduces complexity and accelerates coding, making it easier and faster to write scripts compared to traditional POMs. This means less time spent on setup and more time spent on creating effective tests.
 
