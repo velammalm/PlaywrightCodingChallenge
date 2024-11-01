@@ -23,8 +23,6 @@ The **PlaywrightCodingChallenge** project aims to create a flexible and reusable
 
 - **Detailed Reporting**: Provides screenshots, videos, and traces of test failures, making it easier to understand and fix issues. The framework also supports customizable Allure reports for enhanced reporting capabilities.
 
-## TestCases
-
 ## Completed Tasks
 
 The following tasks have been completed in this repository:
@@ -36,6 +34,7 @@ The following tasks have been completed in this repository:
 **4. Offer selection**\
 **5. Offer page**
 
+## TestCases
 - Validation of HomePage
 - Validation of Login functionality - to test the behavior when the user inputs incorrect credentials
 - Selection of offer based on the user input(destination, travel date) and validation of offer page
